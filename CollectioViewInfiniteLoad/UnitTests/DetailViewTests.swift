@@ -14,8 +14,8 @@ class DetailViewTests: XCTestCase {
 
     override func setUpWithError() throws {
         viewModel = DetailViewModel()
-        galleryData = [Gallery(id: 100, title: "sampleTitle", imageName: "1", description: "SampleDescrition"),
-                    Gallery(id: 101, title: "sampleTitle1", imageName: "2", description: "SampleDescrition1")]
+        galleryData = [Gallery(id: 100, title: "sampleTitle", imageName: "1", description: "SampleDescrition", date: "21-Apr-20"),
+                    Gallery(id: 101, title: "sampleTitle1", imageName: "2", description: "SampleDescrition1", date: "22-Apr-20")]
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
