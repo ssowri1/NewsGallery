@@ -1,2 +1,1 @@
 # NewsGallery
-NewsGallery
